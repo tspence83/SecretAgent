@@ -154,3 +154,22 @@ header{
   color: white;
   align-items: center;
 }
+/*For tablet viewing*/
+@media only screen and (max-width: 1024px) {
+  .item{
+    width: 47%;
+  }
+}
+
+/*For mobile phone viewing*/
+@media only screen and (max-width: 470px){
+  .item{
+    width: 90%;
+  }
+  .misc{
+    display: block;
+  }
+  .copyright{
+    align-content: center;
+  }
+}
